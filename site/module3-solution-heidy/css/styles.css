@@ -1,0 +1,128 @@
+body {
+    font-size: 16px;
+    color: #000;
+    background-color: #dcdcdc;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /** HEADER **/
+  #header-nav {
+    background-color: #ffffff;
+    border-radius: 0;
+    border: 0;
+  }
+  
+  
+  .navbar-brand {
+    margin-top: 10px;
+    padding-top: 7px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    font-family: 'Poppins', sans-serif;
+    color: #737373;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    line-height: .75;
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+  
+  #nav-list {
+    margin-top: 10px;
+  }
+  #nav-list a {
+    color: #737373;
+    text-align: center;
+  }
+  #nav-list a:hover {
+    background: #E7E7E7;
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+  
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #000;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+  /* END HEADER */
+
+/* HOMEPAGE */
+
+#homepage-title {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.homepage-backgroundtext {
+    height: auto;
+    padding: 20px 40px 20px 40px;
+    background-color: #98fb98;
+    overflow: hidden;
+}
+
+.row{
+	margin: 20px;
+}
+/* END HOMEPAGE */
+
+
+  /* FOOTER */
+  .panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+    color: #ffffff;
+  }
+  /* END FOOTER */
+
+
+/* ALL MEDIA QUERIES */
+
+/**********Medium Class **********/
+@media (max-width:767px){
+  .navbar-brand:focus, .navbar-brand{
+    margin-left:10px;
+  } 
+}
+
+/********** Extra Small Class **********/
+@media (max-width: 575px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 10vw; /* 1vw = 1% of viewport width */
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  /* End Header */
+
+  /* Footer */
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  /* End Footer */
+}

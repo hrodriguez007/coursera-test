@@ -5,21 +5,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <title>Bootstrap Starter Page</title>
+    <title>Module 3 Solution - Heidy Rodriguez</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
   </head>
 <body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="navbar-brand">
+            <a href="index.html"><h1>Food, LLC</h1></a>
+          </div>
 
-  <h1>Hello Coursera!</h1>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav visible-xs">
+            <li>
+              <a href="#chicken" class="text-center">
+              Chicken</a>
+            </li>
+            <li>
+              <a href="#beef" class="text-center">
+              Beef</a>
+            </li>
+            <li>
+              <a href="#sushi" class="text-center">
+              Sushi</a>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
 
+  <div id="main-content" class="container">
+    <h2 id="homepage-title" class="text-center">Our Menu</h2>
+    <section class="row">
+      <div id="homepage-text" class="col-xs-12">
+        <div class="homepage-backgroundtext">
+          <h3 id="chicken">Chicken</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut eu sem integer vitae justo eget magna fermentum. A diam maecenas sed enim. Sit amet porttitor eget dolor morbi non arcu risus. Suscipit adipiscing bibendum est ultricies integer quis auctor elit sed. Bibendum enim facilisis gravida neque. Id neque aliquam vestibulum morbi blandit. Aenean vel elit scelerisque mauris pellentesque. Pharetra convallis posuere morbi leo urna molestie at. Sed risus ultricies tristique nulla. Enim neque volutpat ac tincidunt vitae. Eu augue ut lectus arcu bibendum at varius vel. Condimentum id venenatis a condimentum vitae sapien. Vulputate odio ut enim blandit volutpat maecenas volutpat blandit. Auctor elit sed vulputate mi sit. Lacinia at quis risus sed vulputate. Proin nibh nisl condimentum id.
+            <br><br>
+            Nibh mauris cursus mattis molestie. Consequat ac felis donec et odio pellentesque. Facilisi etiam dignissim diam quis enim lobortis. Eu consequat ac felis donec et odio. Nibh sed pulvinar proin gravida hendrerit. Orci a scelerisque purus semper eget duis at tellus. Consequat mauris nunc congue nisi vitae suscipit tellus mauris a. Adipiscing commodo elit at imperdiet dui accumsan sit amet. Nullam ac tortor vitae purus faucibus ornare suspendisse sed nisi. Augue mauris augue neque gravida in fermentum et sollicitudin. Id venenatis a condimentum vitae sapien pellentesque habitant morbi. Tincidunt vitae semper quis lectus nulla at volutpat diam. Justo laoreet sit amet cursus sit amet. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula ipsum. Nunc aliquet bibendum enim facilisis gravida neque convallis a.
+          </p>
+          <h3 id="beef">Beef</h3>
+          <p>
+            Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Magna eget est lorem ipsum dolor sit. Eget dolor morbi non arcu risus quis varius quam. Natoque penatibus et magnis dis. Id diam vel quam elementum pulvinar etiam non quam. Porttitor eget dolor morbi non arcu risus. Eget sit amet tellus cras adipiscing. Lobortis elementum nibh tellus molestie nunc non blandit. Ipsum consequat nisl vel pretium lectus quam id. Nisi scelerisque eu ultrices vitae auctor eu augue. Tortor id aliquet lectus proin nibh nisl. Pharetra convallis posuere morbi leo urna molestie. Integer vitae justo eget magna fermentum iaculis eu non diam. Eu non diam phasellus vestibulum lorem sed risus ultricies. Ipsum faucibus vitae aliquet nec ullamcorper sit amet risus nullam. Dictum sit amet justo donec enim diam vulputate ut pharetra. Non odio euismod lacinia at quis risus sed vulputate. Vitae congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque.
+          <br><br>
+          Vestibulum sed arcu non odio euismod lacinia at. Adipiscing elit ut aliquam purus sit amet luctus venenatis lectus. Ornare quam viverra orci sagittis eu volutpat odio. Purus in mollis nunc sed id semper risus in. Enim nulla aliquet porttitor lacus luctus accumsan tortor posuere. Sed enim ut sem viverra aliquet. Eu facilisis sed odio morbi quis commodo. Mi quis hendrerit dolor magna eget est lorem ipsum dolor. Et ultrices neque ornare aenean. Pulvinar etiam non quam lacus suspendisse. Venenatis lectus magna fringilla urna porttitor. Mi sit amet mauris commodo quis.</p>
+          
+          <h3 id="sushi">Sushi</h3>
+          <p>Non sodales neque sodales ut etiam. Enim nunc faucibus a pellentesque sit amet. Duis ut diam quam nulla porttitor massa id. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa. Eu mi bibendum neque egestas congue quisque egestas diam. Pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum odio. Ultrices tincidunt arcu non sodales neque sodales ut etiam sit. Euismod quis viverra nibh cras. Ac odio tempor orci dapibus ultrices in iaculis. Mattis pellentesque id nibh tortor id aliquet lectus proin nibh. Donec massa sapien faucibus et molestie ac. Commodo elit at imperdiet dui accumsan sit amet nulla. Pharetra sit amet aliquam id diam maecenas ultricies. Fermentum et sollicitudin ac orci phasellus egestas tellus rutrum tellus. Ornare arcu odio ut sem nulla pharetra diam sit. Lacinia quis vel eros donec ac odio tempor orci. </p>
+          
+          
+        </div>
+      </div>
+
+    </section>
+
+    
+  </div>
+
+  <footer>
+    
+  </footer>
+
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="text-center">&copy; Copyright Heidy Rodriguez 2023</div>
+    </div>
+  </footer>
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
