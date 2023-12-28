@@ -8,7 +8,8 @@
 
       if (firstLetter === 'j') {
         byeSpeaker.speak(names[i]);
-      } else {
+      } 
+      else {
         helloSpeaker.speak(names[i]);
       }
     }
