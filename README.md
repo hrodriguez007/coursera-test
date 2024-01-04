@@ -1,2 +1,18 @@
-# coursera-test
-Coursera Test Repo
+### This is the Submissions for the Certification of the Coursera course HTML, CSS, and Javascript for Web Developers offered by John Hopkins University.
+
+To take the course follow this link: (https://www.coursera.org/learn/html-css-javascript-for-web-developers?)
+
+Module 2 Assignment Solution 
+[Click here to see it live](https://hrodriguez007.github.io/university-responsive-website/)
+
+
+Module 3 Assignment Solution 
+[Click here to see it live](https://hrodriguez007.github.io/university-responsive-website/)
+
+
+Module 4 Assignment Solution 
+[Click here to see it live](https://hrodriguez007.github.io/university-responsive-website/)
+
+
+Module 5 Assignment Solution 
+[Click here to see it live](https://hrodriguez007.github.io/university-responsive-website/)
